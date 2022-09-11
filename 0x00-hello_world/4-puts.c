@@ -1,4 +1,13 @@
-#!/bin/bash\n
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c && ./a.out
-"Programming is like building a multilingual puzzle\n
-0
+/**
+* main - print the string in the put function
+*
+* Description: using the main function
+*The program prints with the put function
+* this program returns: 0
+*/
+
+int main (void)
+{
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
+}
