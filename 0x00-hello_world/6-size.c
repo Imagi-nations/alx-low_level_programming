@@ -13,6 +13,7 @@ int main(void)
 	long li;
 	long long lii;
 	float f;
+
 	printf("Size of a char: %Id byte(s)\n", sizeof(c));
 	printf("Size of an int: %Id byte(s)\n", sizeof(i));
 	printf("Size of a long int: %Id byte(s)\n", sizeof(li));
