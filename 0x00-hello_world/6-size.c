@@ -3,9 +3,8 @@
 * main - prints the size of types on the computer
 *
 * Description: using the main function
-* this program prints the size of various types on the computer* is being compiled with
+* this program prints the size of various types on the computer
 * Return: 0
-
 */
 int main(void)
 {
@@ -14,7 +13,6 @@ int main(void)
 	long li;
 	long long lii;
 	float f;
-	
 	printf("Size of a char: %Id byte(s)\n", sizeof(c));
 	printf("Size of an int: %Id byte(s)\n", sizeof(i));
 	printf("Size of a long int: %Id byte(s)\n", sizeof(li));
