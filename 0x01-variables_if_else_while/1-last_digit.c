@@ -5,7 +5,8 @@
 * main - print if the number is postive, zero, or negative
 *
 * Description: using the main function
-* This program will assign a random number to the variable n each time it is executed
+* This program will assign a random number to the variable n each time
+* it is executed
 * Return: 0
 */
 int main(void)
