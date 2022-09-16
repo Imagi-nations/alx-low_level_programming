@@ -2,7 +2,7 @@
 
 /**
 * main - function
-* 
+*
 * Description: it causes an infinite loop
 * Return: 0
 */
