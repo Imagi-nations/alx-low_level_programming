@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-unsigned long n1 = 0, n2 = 1, n3 = 0, sum = 0;
+unsigned long long n1 = 0, n2 = 1, n3 = 0, sum = 0;
 while (n3 <= 354224848179261915075)
 {
 n3 = n1 + n2;
@@ -18,6 +18,6 @@ if ((n1 % 2) == 0)
 sum += n1;
 
 }
-printf("%ld", ',', ' ', '\0', sum);
+printf("%ld", "%c", ',', '\0', sum);
 return (0);
 }
